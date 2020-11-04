@@ -1,5 +1,7 @@
 # coffee-ratio
 
+[![npm version](https://badge.fury.io/js/%40alehuo%2Fcoffee-ratio.svg)](https://badge.fury.io/js/%40alehuo%2Fcoffee-ratio)
+
 ## Introduction
 
 `coffee-ratio` is a zero-dependency, must-have tool for all coffee artisans. With `coffee-ratio`, you can calculate coffee ratios for the perfect brew. Measuring how much water & coffee beans you need is also made possible with this library.
