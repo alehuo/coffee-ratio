@@ -1,6 +1,6 @@
 {
   "name": "@alehuo/coffee-ratio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Coffee ratio calculator",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
