@@ -17,7 +17,7 @@ TypeScript typings are included out of the box.
 **Case 1:** What is the coffee ratio with 40 grams of coffee beans and 200 grams of water?
 
 ```typescript
-import { Water, isLeft } from "@alehuo/coffee-ratio";
+import { Water, Coffee, Ratio, isLeft } from "@alehuo/coffee-ratio";
 const ratioResult = Ratio.calculate(Coffee.fromGrams(40), Water.fromGrams(200));
 if (isLeft(ratioResult)) {
   console.log(ratioResult.result);
@@ -59,7 +59,7 @@ if (isLeft(ratioResult)) {
 **Case 2:** I want to brew coffee with 1:9 ratio. How much water do I need when I have 45 grams of coffee beans?
 
 ```typescript
-import { Water, isLeft } from "@alehuo/coffee-ratio";
+import { Water, Coffee, isLeft } from "@alehuo/coffee-ratio";
 const waterAmount = Water.fromRatioAndCoffeeAmount(1 / 9, Coffee.fromGrams(45));
 if (isLeft(waterAmount)) {
   console.log(waterAmount.result);
